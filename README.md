@@ -1,70 +1,39 @@
-# WorldCup-Data-Analysis
+# FIFA World Cup Analysis (1930–2022) – Power BI
 
-## 📖 Overview
+## Overview
+An interactive Power BI dashboard covering FIFA World Cup history, with three pages:
+World Cup Overview, FIFA Rankings, and Match Analysis. Data was cleaned and prepared
+with Excel and Power Query.
 
-A comprehensive data analysis project covering **FIFA World Cup history from 1930 to 2022**, focusing on match results, team performances, and standout records.  
-The analysis is visualized through an interactive **Power BI Dashboard**, with data cleaned and prepared using **Excel** and **Power Query**.
+## Dashboard Scope
+* Matches analyzed: 964
+* Teams in the FIFA rankings page: 211
+* Total attendance: about 44M
+* Champion titles counted: 22
 
----
+## Dashboard Pages
+* **World Cup Overview:** teams per tournament, champions, runner-ups, top scorers
+  by tournament, and filters by host, year, champion, and runner-up.
+* **FIFA Rankings:** top 10 teams by FIFA points (2022), top 10 ranking, and
+  rank distribution by confederation.
+* **Match Analysis:** goals by year, expected goals (xG) by round, goals by venue
+  on a map, and a match-level table with date, teams, score, and referee.
 
-## 📊 Key Insights
+## Key Findings
+* Brazil won the most titles (5), followed by Italy (4) and Argentina (3).
+* Germany was the most frequent runner-up (4), followed by Argentina and
+  the Netherlands (3 each).
+* The tournament grew from 13 teams in 1930 to 24 in the early 1980s,
+  then to 32 teams from 1998 onward.
+* Brazil led the FIFA points table (1,841), followed by Belgium (1,817)
+  and Argentina (1,774).
+* Kylian Mbappé scored 8 goals in the 2022 tournament.
 
-- Match results from every World Cup (1930-2022)
-- Correlation between FIFA rankings and team performance
-- Top scorers & record-breaking matches
-- Interesting stats:
-  - Fastest goal in World Cup history
-  - Most goals in a single match
-  - Teams with most appearances without titles
-  - Longest winning streaks
-  - Highest match attendance
+## Tools
+* Power BI
+* Excel
+* Power Query
+* DAX
 
----
-
-## 🛠️ Tools Used
-
-| Tool               | Purpose                                      |
-|--------------------|----------------------------------------------|
-| Microsoft Excel    | Data cleaning & preprocessing                |
-| Power Query        | Data transformation                          |
-| Power BI           | Dashboard visualization                      |
-| DAX                | Data modeling & calculations                 |
-| Git & GitHub       | Version control & sharing                    |
-
----
-
-## 📥 Datasets
-
-- **matches_1930_2022.csv**: Match results from all tournaments
-- **fifa_ranking_2022-10-06.csv**: Latest FIFA rankings
-- **world_cup.csv**: Overview of each tournament
-
----
-
-## 🏅 Highlights
-
-- **Fastest Goal:** Hakan Şükür (Turkey), 11 seconds (2002)
-- **Most Goals in One Match:** Hungary vs El Salvador (10-1), 1982
-- **Most Appearances Without Title:** Mexico (16 appearances)
-- **Highest Attendance:** 199,854 (Brazil vs Uruguay, 1950)
-- **Oldest Player:** Essam El-Hadary (45 years, Egypt, 2018)
-
----
-
-## 💡 Skills Demonstrated
-
-- Data cleaning & transformation (Excel, Power Query)
-- Data modeling (DAX, star schema)
-- Visualization & storytelling (Power BI)
-- Analytical thinking & problem solving
-
----
-
-## ✉️ Contact
-
-**Saad Mahmoud Fathy Hannout**  
-📍 Menoufia, Egypt  
-📧 saadhanout12345@gmail.com  
-📱 +201097225411
-
----
+## Important Note
+Findings describe patterns in the data, not verified causes.
